@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-26T07:59:26.287Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="MWDZezhuE6uwJ-xlMgFi" version="24.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-27T11:29:03.677Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="Fs-0tO2mXigH-Do5VLK0" version="24.6.3" type="github" pages="2">
   <diagram name="Page-1" id="0783ab3e-0a74-02c8-0abd-f7b4e66b4bec">
     <mxGraphModel dx="1408" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -203,6 +203,123 @@
         </mxCell>
         <mxCell id="1c1d494c118603dd-55" style="edgeStyle=none;rounded=0;html=1;dashed=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=oval;endFill=0;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1c1d494c118603dd-1" source="1c1d494c118603dd-24" target="1c1d494c118603dd-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="861cap6MOT5sco66p-jn" name="第 2 页">
+    <mxGraphModel dx="681" dy="325" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2XLCShjKRxZ3LYoeDsnX-1" value="Sheduler" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="140" y="190" width="100" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="2XLCShjKRxZ3LYoeDsnX-4" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="2XLCShjKRxZ3LYoeDsnX-1">
+          <mxGeometry x="45" y="60" width="10" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="2XLCShjKRxZ3LYoeDsnX-15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="2XLCShjKRxZ3LYoeDsnX-1" source="2XLCShjKRxZ3LYoeDsnX-4" target="2XLCShjKRxZ3LYoeDsnX-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="140" as="sourcePoint" />
+            <mxPoint x="120" y="170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="70" y="150" />
+              <mxPoint x="80" y="150" />
+              <mxPoint x="80" y="160" />
+              <mxPoint x="80" y="170" />
+              <mxPoint x="80" y="180" />
+              <mxPoint x="80" y="200" />
+              <mxPoint x="70" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2XLCShjKRxZ3LYoeDsnX-16" value="任务&lt;br&gt;推入时间轮" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2XLCShjKRxZ3LYoeDsnX-15">
+          <mxGeometry x="-0.03" y="1" relative="1" as="geometry">
+            <mxPoint x="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2XLCShjKRxZ3LYoeDsnX-2" value="数据库" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="310" y="190" width="100" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="2XLCShjKRxZ3LYoeDsnX-5" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="2XLCShjKRxZ3LYoeDsnX-2">
+          <mxGeometry x="45" y="60" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2XLCShjKRxZ3LYoeDsnX-10" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="2XLCShjKRxZ3LYoeDsnX-2">
+          <mxGeometry x="45" y="130" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2XLCShjKRxZ3LYoeDsnX-21" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="2XLCShjKRxZ3LYoeDsnX-2">
+          <mxGeometry x="45" y="280" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2XLCShjKRxZ3LYoeDsnX-3" value="Worker" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="450" y="190" width="100" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="2XLCShjKRxZ3LYoeDsnX-17" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="2XLCShjKRxZ3LYoeDsnX-3">
+          <mxGeometry x="45" y="210" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2XLCShjKRxZ3LYoeDsnX-6" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1" target="2XLCShjKRxZ3LYoeDsnX-5">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="190" y="250" as="sourcePoint" />
+            <mxPoint x="320" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2XLCShjKRxZ3LYoeDsnX-7" value="查询近期需要执行&lt;br&gt;任务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2XLCShjKRxZ3LYoeDsnX-6">
+          <mxGeometry x="-0.0074" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2XLCShjKRxZ3LYoeDsnX-9" value="根据分配的Slot返回&lt;br&gt;任务" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="2XLCShjKRxZ3LYoeDsnX-5" target="2XLCShjKRxZ3LYoeDsnX-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="350" y="290" as="sourcePoint" />
+            <mxPoint x="200" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2XLCShjKRxZ3LYoeDsnX-11" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="195" y="320" as="sourcePoint" />
+            <mxPoint x="355" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2XLCShjKRxZ3LYoeDsnX-12" value="生成任务实例&lt;br&gt;写入数据库" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2XLCShjKRxZ3LYoeDsnX-11">
+          <mxGeometry x="-0.0074" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2XLCShjKRxZ3LYoeDsnX-18" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="2XLCShjKRxZ3LYoeDsnX-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="197.75" y="400" as="sourcePoint" />
+            <mxPoint x="495" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="322.75" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2XLCShjKRxZ3LYoeDsnX-19" value="根据负载均衡策略&lt;br&gt;选择Worker节点执行" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2XLCShjKRxZ3LYoeDsnX-18">
+          <mxGeometry x="-0.0448" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2XLCShjKRxZ3LYoeDsnX-20" value="返回任务执行情况" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="2XLCShjKRxZ3LYoeDsnX-17" target="2XLCShjKRxZ3LYoeDsnX-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="490" y="450" as="sourcePoint" />
+            <mxPoint x="200" y="450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="235" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2XLCShjKRxZ3LYoeDsnX-22" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="2XLCShjKRxZ3LYoeDsnX-4" target="2XLCShjKRxZ3LYoeDsnX-21">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="200" y="470" as="sourcePoint" />
+            <mxPoint x="350" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2XLCShjKRxZ3LYoeDsnX-23" value="写入任务实例&lt;br&gt;执行日志" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2XLCShjKRxZ3LYoeDsnX-22">
+          <mxGeometry x="-0.0074" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
